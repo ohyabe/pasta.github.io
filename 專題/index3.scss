@@ -1,0 +1,280 @@
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-color: rgb(255, 255, 255);
+    font-family: ‘cwTeXYen’, sans-serif;
+    
+    // position: relative;
+}
+
+.underlying {
+    
+    background-color: rgb(212, 207, 141);
+    width: 100rdw;
+    height: 100px;
+}
+
+.header{
+    width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    header {
+
+    ul{ 
+        background-color: rgb(212, 207, 141);
+        width: 100rdw;
+        height: 100px;
+        display: flex;
+        // position: absolute;
+        position: relative;
+        top: -100px;
+        z-index: 5;
+        
+        h1{
+            color: ivory;
+            text-shadow: 5px 5px 5px rgb(147, 141, 62);
+            font-size: 5rem;
+            line-height: 100px;
+            margin-left: 30px;
+            transition: all 0.5s ease-in;
+                    &:hover{
+                        
+                        color: rgb(255, 255, 255);
+                        text-shadow: 0px 0px 5px rgb(233, 226, 205),0px 0px 10px rgb(220, 211, 185),0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+                        
+                    }
+        }
+        .nav{
+            margin-left: auto;
+            
+            li{
+                // 把列表樣式的黑點去除，list-style-type：修改列表開頭符號
+                list-style-type:none;
+                display: inline-block;
+                line-height: 100px;
+                
+                a{
+                    text-decoration: none;
+                    color: ivory;
+                    text-shadow: 5px 5px 5px rgb(147, 141, 62);
+                    margin-right: 50px;
+
+                    transition: all 0.5s ease-in;
+                    &:hover{
+                        text-decoration: underline;
+                        color: rgb(255, 255, 255);
+                        text-shadow: 0px 0px 5px rgb(233, 226, 205),0px 0px 10px rgb(220, 211, 185),0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+                        
+                    }
+                    .text3{
+                        font-weight: bold;
+                    }
+                }
+
+            }
+            }
+        }
+    }
+}
+
+// -----------------------------------------------------
+#carouselExampleAutoplaying{
+    // width: 1200px;
+    margin: 0 auto;
+    position: relative;
+    top: -116px;
+    z-index: 5;
+}
+// .block {
+//     height: 800px;
+//     display: flex;
+//     justify-content: center;
+//     // align-items: center;
+//     background: rgb(255, 255, 255); 
+//     margin-top: -30px;
+// }
+// .slider {
+//     position: relative;
+//     width: 72%;
+//     overflow: hidden; //自動隱藏超出的文字或圖片
+
+// .dots{
+//     display: flex;
+//     width: 100%;
+//     // z-index: 1;
+//     // display: none;
+
+//     #img:checked ~ .picture {
+//         margin-left: 0; 
+//     }
+
+//     #img2:checked ~ .picture2 {
+//         margin-left: -100%; 
+//     }
+
+//     #img3:checked ~ .picture3 {
+//         margin-left: -200%; 
+//     }
+
+//     #img4:checked ~ .picture4 {
+//         margin-left: -300%; 
+//     }
+
+//     #img5:checked ~ .picture5 {
+//         margin-left: -400%; 
+//     }
+
+// }
+
+// input {
+//     display: none;
+// }
+
+//     img {
+//         // position: absolute;
+//         height: 600px;
+//         width: 100%;
+//         transition: all 0.15s ease-in-out;
+//     }
+// }
+// .dots2 {
+
+//     display: flex;
+//     justify-content: center;
+//     margin: 5px;
+
+//     label {
+//         // position: relative;
+//         // display: flex;
+//         cursor: pointer;
+//         width: 15px;
+//         height: 15px;
+//         border-radius: 50%;
+//         border: solid rgb(255, 255, 255);
+//         margin: 7px;
+//         transition: all 0.5s ease-out;
+//         margin-top: -100px;
+
+//         &:hover {
+//             background-color: rgb(255, 255, 255);
+//         }
+
+//     }
+// }
+
+main {
+    text-align: center;
+    line-height: 50px;
+    margin-top: -80px;
+    margin-bottom: 30px;
+    h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    table {
+        margin: 0 auto; 
+        border-collapse: collapse;
+        th,td {
+            border-bottom: solid 1px #ada66b;
+            padding: 10px 20px;
+            a {
+                text-decoration: none;
+                color: rgb(112, 104, 15);
+                &:hover{
+                    text-decoration: underline;
+                }
+            }
+        }
+    
+    }
+}
+
+// footer{
+//     .ul2{ 
+//         background-color: rgb(212, 207, 141);
+//         width: 100rdw;
+//         height: 100px;
+//         display: flex;
+//         position: relative;
+//         top: 200px;
+//         margin-top: -100px;
+        
+//         .footer{
+//             margin: 0 auto;
+
+//             li{
+//                 list-style-type:none;
+//                 display: inline-block;
+//                 line-height: 100px;
+//                 margin: 0 50px;
+//                 a{
+//                     text-decoration: none;
+//                     color: ivory;
+//                     text-shadow: 5px 5px 5px rgb(147, 141, 62);
+//                     transition: all 0.5s ease-in;
+//                     &:hover{
+//                         text-decoration: underline;
+//                         color: rgb(255, 255, 255);
+//                         text-shadow: 0px 0px 5px rgb(233, 226, 205),0px 0px 10px rgb(220, 211, 185),0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+                        
+//                     }
+                    
+//                 }
+                
+//             }
+//         }
+//     }
+// }
+
+footer {
+    position: relative;
+    width: 100%;
+    background: rgb(212, 207, 141);
+   height: 200px;
+    /* padding: 0px 100px 50px 50px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  //   是用來讓元素在垂直方向上對齊
+    flex-direction: column; 
+   
+  }
+
+
+.underlying2 {
+    margin-top: 100px;
+    background-color: rgb(212, 207, 141);
+    width: 100rdw;
+    height: 200px;
+
+}
+
+//置頂按鈕
+.flex {
+    position: fixed;
+    z-index: 10;
+    right: 15px;
+    bottom: 201px;
+    width: 5rem;
+    height: 5rem;
+    border-radius: 25px;
+    background-color: rgb(221, 198, 152);
+    border:none;
+        &::after {
+            content:"";
+            position: relative;
+            width: 0;
+            height: 0;
+            border: 20px solid;
+            border-color: transparent transparent #ffffff transparent;
+            opacity: 0.7;
+            left:20px;
+            top:10px;
+        }
+}
+

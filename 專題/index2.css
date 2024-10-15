@@ -1,0 +1,340 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: ‘cwTeXYen’, sans-serif;
+  box-sizing: border-box;
+}
+
+.underlying {
+  background-color: rgb(212, 207, 141);
+  width: 100rdw;
+  height: 100px;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.header header ul {
+  background-color: rgb(212, 207, 141);
+  width: 100rdw;
+  height: 100px;
+  display: flex;
+  position: relative;
+  top: -100px;
+  z-index: 5;
+}
+.header header ul h1 {
+  color: ivory;
+  text-shadow: 5px 5px 5px rgb(147, 141, 62);
+  font-size: 5rem;
+  line-height: 100px;
+  margin-left: 30px;
+  transition: all 0.5s ease-in;
+}
+.header header ul h1:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(233, 226, 205), 0px 0px 10px rgb(220, 211, 185), 0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+}
+.header header ul .nav {
+  margin-left: auto;
+}
+.header header ul .nav li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 100px;
+}
+.header header ul .nav li a {
+  text-decoration: none;
+  color: ivory;
+  text-shadow: 5px 5px 5px rgb(147, 141, 62);
+  margin-right: 50px;
+  transition: all 0.5s ease-in;
+}
+.header header ul .nav li a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(233, 226, 205), 0px 0px 10px rgb(220, 211, 185), 0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+}
+.header header ul .nav li a .text3 {
+  font-weight: bold;
+}
+
+hr {
+  width: 350px;
+  margin: 0 auto;
+  border-width: 2px;
+  margin-top: 30px;
+}
+
+main {
+  width: 1200px;
+  height: 100%;
+  padding-top: 150px;
+  border-width: 0px;
+  border-style: solid;
+  border-color: #be987b;
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.menu {
+  margin: 0 auto;
+}
+.menu .title {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: -80px;
+}
+
+.title2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.title2 h3 {
+  margin-right: 10px;
+}
+
+@keyframes slide-fade-in {
+  from {
+    opacity: 0;
+    box-shadow: none;
+    transform: scale(0) translate(15dvh);
+  }
+}
+.img, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11 {
+  overflow: hidden;
+  animation: slide-fade-in both;
+  animation-timeline: view();
+  animation-range: contain 0% contain 75%;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  max-height: 100%;
+  height: auto;
+  width: auto;
+}
+
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.block .section {
+  margin-right: -20px;
+}
+.block .section .content {
+  width: 350px;
+  text-align: center;
+}
+.block .section .content .img {
+  background-image: url("./舒芙蕾/青醬.jpg");
+  width: 330px;
+  height: 330px;
+  background-position: center;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block .section .content .img2 {
+  background-image: url("./舒芙蕾/培根.jpg");
+  width: 330px;
+  height: 330px;
+  background-position: top 330px left 430px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block .section .content .product {
+  text-align: center;
+}
+.block .section2 {
+  width: 400px;
+  text-align: center;
+}
+.block .section2 .img3 {
+  background-image: url(./舒芙蕾/長圖.jpg);
+  width: 400px;
+  height: 680px;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block .section3 .content {
+  width: 350px;
+  text-align: center;
+}
+.block .section3 .content .img4 {
+  background-image: url("./舒芙蕾/肉丸.jpg");
+  width: 330px;
+  height: 330px;
+  background-position: 95% 25%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block .section3 .content .img5 {
+  background-image: url("./舒芙蕾/肉醬3.jpg");
+  width: 330px;
+  height: 330px;
+  background-position: 100% 65%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block .section3 .content .product {
+  text-align: center;
+}
+
+.hr2 {
+  width: 1000px;
+  margin: 0 auto;
+  border-width: 2px;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.title3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1100px;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: 2rem;
+}
+.title3 h3 {
+  margin-right: 10px;
+}
+
+.block2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.block2 .section4 {
+  margin-right: -20px;
+}
+.block2 .section4 .content2 {
+  width: 350px;
+  text-align: center;
+}
+.block2 .section4 .content2 .img6 {
+  background-image: url("./舒芙蕾/7.jpg");
+  width: 350px;
+  height: 600px;
+  background-position: 25% 25%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section4 .content2 .img7 {
+  background-image: url("./舒芙蕾/6.jpg");
+  width: 350px;
+  height: 330px;
+  background-position: 25% 80%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section4 .content2 .product {
+  text-align: center;
+}
+.block2 .section5 .content2 {
+  width: 350px;
+  text-align: center;
+}
+.block2 .section5 .content2 .img8 {
+  background-image: url("./舒芙蕾/8.jpg");
+  width: 350px;
+  height: 330px;
+  background-position: 55% 75%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section5 .content2 .img9 {
+  background-image: url("./舒芙蕾/9.jpg");
+  width: 350px;
+  height: 600px;
+  background-position: 85% 65%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section5 .content2 .product {
+  text-align: center;
+}
+.block2 .section6 .content2 {
+  width: 350px;
+  text-align: center;
+  margin-left: -20px;
+}
+.block2 .section6 .content2 .img10 {
+  background-image: url(./舒芙蕾/10.jpg);
+  width: 350px;
+  height: 600px;
+  background-position: 35% 45%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section6 .content2 .img11 {
+  background-image: url(./舒芙蕾/11.jpg);
+  width: 350px;
+  height: 330px;
+  background-position: 40% 70%;
+  border-radius: 3px;
+  margin-bottom: 25px;
+}
+.block2 .section6 .content2 .product {
+  text-align: center;
+}
+
+.menu_footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0;
+}
+.menu_footer li {
+  margin-left: 30px;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(212, 207, 141);
+  height: 200px;
+  /* padding: 0px 100px 50px 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.flex {
+  position: fixed;
+  z-index: 10;
+  right: 15px;
+  bottom: 201px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 25px;
+  background-color: rgb(221, 198, 152);
+  border: none;
+}
+.flex::after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: transparent transparent #ffffff transparent;
+  opacity: 0.7;
+  left: 20px;
+  top: 10px;
+}/*# sourceMappingURL=index2.css.map */

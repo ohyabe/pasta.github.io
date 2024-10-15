@@ -1,0 +1,143 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  font-family: ‘cwTeXYen’, sans-serif;
+}
+
+.underlying {
+  background-color: rgb(212, 207, 141);
+  width: 100rdw;
+  height: 100px;
+}
+
+.header {
+  width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.header header ul {
+  background-color: rgb(212, 207, 141);
+  width: 100rdw;
+  height: 100px;
+  display: flex;
+  position: relative;
+  top: -100px;
+  z-index: 5;
+}
+.header header ul h1 {
+  color: ivory;
+  text-shadow: 5px 5px 5px rgb(147, 141, 62);
+  font-size: 5rem;
+  line-height: 100px;
+  margin-left: 30px;
+  transition: all 0.5s ease-in;
+}
+.header header ul h1:hover {
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(233, 226, 205), 0px 0px 10px rgb(220, 211, 185), 0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+}
+.header header ul .nav {
+  margin-left: auto;
+}
+.header header ul .nav li {
+  list-style-type: none;
+  display: inline-block;
+  line-height: 100px;
+}
+.header header ul .nav li a {
+  text-decoration: none;
+  color: ivory;
+  text-shadow: 5px 5px 5px rgb(147, 141, 62);
+  margin-right: 50px;
+  transition: all 0.5s ease-in;
+}
+.header header ul .nav li a:hover {
+  text-decoration: underline;
+  color: rgb(255, 255, 255);
+  text-shadow: 0px 0px 5px rgb(233, 226, 205), 0px 0px 10px rgb(220, 211, 185), 0px 0px 20px rgb(215, 192, 120), 0px 0px 30px rgb(209, 162, 76), 0px 0px 35px rgb(112, 74, 2);
+}
+.header header ul .nav li a .text3 {
+  font-weight: bold;
+}
+
+#carouselExampleAutoplaying {
+  margin: 0 auto;
+  position: relative;
+  top: -116px;
+  z-index: 5;
+}
+
+main {
+  text-align: center;
+  line-height: 50px;
+  margin-top: -80px;
+  margin-bottom: 30px;
+}
+main h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+main table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+main table th, main table td {
+  border-bottom: solid 1px #ada66b;
+  padding: 10px 20px;
+}
+main table th a, main table td a {
+  text-decoration: none;
+  color: rgb(112, 104, 15);
+}
+main table th a:hover, main table td a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  position: relative;
+  width: 100%;
+  background: rgb(212, 207, 141);
+  height: 200px;
+  /* padding: 0px 100px 50px 50px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.underlying2 {
+  margin-top: 100px;
+  background-color: rgb(212, 207, 141);
+  width: 100rdw;
+  height: 200px;
+}
+
+.flex {
+  position: fixed;
+  z-index: 10;
+  right: 15px;
+  bottom: 201px;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 25px;
+  background-color: rgb(221, 198, 152);
+  border: none;
+}
+.flex::after {
+  content: "";
+  position: relative;
+  width: 0;
+  height: 0;
+  border: 20px solid;
+  border-color: transparent transparent #ffffff transparent;
+  opacity: 0.7;
+  left: 20px;
+  top: 10px;
+}/*# sourceMappingURL=index3.css.map */
